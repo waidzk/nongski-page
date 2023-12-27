@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navigation-mobile {
+  height: calc(100vh-110px);
+}
