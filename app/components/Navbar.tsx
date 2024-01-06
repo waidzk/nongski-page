@@ -1,13 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
   const [isMenuMobileOpen, setMenuMobileOpen] = useState(false);
-  useEffect(() => {
-    console.log(isMenuMobileOpen);
-  }, [isMenuMobileOpen]);
 
   return (
     <nav className="w-full flex justify-center mt-2">
@@ -31,7 +28,7 @@ const Navbar = () => {
             <a className="hover:text-[#FF0404]" href="">About us</a>
           </li>
         </ul>
-        <div className="donate-btn text-white bg-[#FF0404] rounded-b-full -mt-16 pt-[92px] pb-8 px-2 transition-all ease-in-out duration-100 hover:pt-[100px]">
+        <div className="hidden md:block text-white bg-[#FF0404] rounded-b-full -mt-16 pt-[92px] pb-8 px-2 transition-all ease-in-out duration-100 hover:pt-[100px]">
           <a href="" className="">
             Donasi
           </a>
@@ -48,7 +45,7 @@ const Navbar = () => {
             />
           </div>
           <div
-            className={`flex justify-end text-right items-center fixed right-0 top-[70px] h-screen w-[320px] bg-[#FF0404] rounded-tl-3xl rounded-br-3xl transition-all ease-in-out duration-100 ${
+            className={`flex justify-end text-right items-center fixed right-0 top-[70px] h-screen w-[320px] bg-[#FF0404] rounded-tl-full transition-all ease-in-out duration-100 ${
               isMenuMobileOpen ? "translate-x-0" : "translate-x-full"
             }`}
           >
