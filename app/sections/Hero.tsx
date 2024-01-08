@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "../components/Button";
 
 const Hero = () => {
   return (
@@ -45,9 +46,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <button className="w-full md:w-96 text-white bg-[#FF0000] p-3 rounded-full">
-          Explore
-        </button>
+        <Button theme="primary" variant="md:w-96" title="Explore" />
       </div>
     </section>
   );

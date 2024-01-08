@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Button from "../components/Button";
 
 const ComingProject = () => {
   return (
@@ -24,9 +25,7 @@ const ComingProject = () => {
               nisi non tempora animi saepe alias natus, voluptate perspiciatis
               impedit sapiente quisquam.
             </p>
-            <button className="w-full border border-[#FF0000] text-[#FF0000] bg-white p-3 rounded-full">
-              Donasi
-            </button>
+            <Button theme="secondary" title="Donasi" />
           </div>
         </div>
       </div>
