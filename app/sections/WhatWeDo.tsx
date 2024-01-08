@@ -15,7 +15,7 @@ const WhatWeDo = () => {
             </p>
           </div>
           <div className="flex flex-col-reverse md:flex-col gap-2 w-full md:w-1/2">
-            <p className="text-slate-700 text-sm w-[500px]">
+            <p className="text-slate-700 text-sm w-full xl:w-[500px]">
               Dengan acara yang kebanyakan dibuat untuk anak-anak, kami
               menyimpulkan bahwa anak-anak ini kelak akan meneruskan
               perjuangan kami sebagai orang yang ingin bermanfaat bagi orang
