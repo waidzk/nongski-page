@@ -2,7 +2,7 @@ import React from 'react'
 
 const Process = () => {
   return (
-    <section className="w-full flex justify-center items-center mt-10">
+    <section className="w-full flex justify-center items-center my-5 py-5">
       <div className="w-[320px] md:w-[760px] lg:w-[900px] xl:w-[1200px] flex flex-col gap-5 justify-center items-center">
         <h1 className="text-2xl text-center font-bold">Process of build a our project</h1>
         <div className="cards-process flex md:flex-row flex-col justify-center nunito">

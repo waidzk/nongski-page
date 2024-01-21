@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 const ComingProject = () => {
   return (
-    <section className="w-full flex justify-center items-center mt-2">
+    <section className="w-full flex justify-center items-center my-5 py-5">
       <div className="w-[320px] md:w-[760px] lg:w-[900px] xl:w-[1200px] flex flex-col gap-5 justify-center items-center">
         <h1 className="text-2xl font-bold">Coming Project</h1>
         <div className="flex flex-col md:flex-row items-center gap-4">
