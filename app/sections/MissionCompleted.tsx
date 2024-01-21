@@ -12,13 +12,14 @@ export const MissionCompleted = () => {
         <h1 className="text-2xl text-center font-bold">Mission Completed</h1>
         <div className="flex justify-center items-center mt-3">
           <Swiper
-            spaceBetween={50}
-            slidesPerView={3}
-            loop={true}
+            slidesPerView={'auto'}
+            centeredSlides={true}
+            spaceBetween={30}
+            grabCursor={true}
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="card">
+              <div className="card w-full">
                 <div className="image transition-all duration-75 ease-in-out">
                   <img
                     src="/img/mission1.jpg"
@@ -42,7 +43,7 @@ export const MissionCompleted = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card">
+              <div className="card w-full">
                 <div className="image transition-all duration-75 ease-in-out">
                   <img
                     src="/img/mission1.jpg"
@@ -66,7 +67,7 @@ export const MissionCompleted = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card">
+              <div className="card w-full">
                 <div className="image transition-all duration-75 ease-in-out">
                   <img
                     src="/img/mission1.jpg"
@@ -90,7 +91,7 @@ export const MissionCompleted = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card">
+              <div className="card w-full">
                 <div className="image transition-all duration-75 ease-in-out">
                   <img
                     src="/img/mission1.jpg"
@@ -114,7 +115,7 @@ export const MissionCompleted = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card">
+              <div className="card w-full">
                 <div className="image transition-all duration-75 ease-in-out">
                   <img
                     src="/img/mission1.jpg"
@@ -138,7 +139,7 @@ export const MissionCompleted = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card">
+              <div className="card w-full">
                 <div className="image transition-all duration-75 ease-in-out">
                   <img
                     src="/img/mission1.jpg"
