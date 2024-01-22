@@ -7,7 +7,7 @@ import "swiper/css";
 
 export const MissionCompleted = () => {
   return (
-    <section className="w-full flex justify-center items-center my-5 py-5">
+    <section className="w-full flex justify-center items-center my-5 py-5 Missions">
       <div className="w-[320px] md:w-[760px] lg:w-[900px] xl:w-[1200px]">
         <h1 className="text-2xl text-center font-bold">Mission Completed</h1>
         <div className="flex justify-center items-center mt-3">

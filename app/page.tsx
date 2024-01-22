@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import AboutUs from "./sections/AboutUs";
 import ComingProject from "./sections/ComingProject";
 import Hero from "./sections/Hero";
 import MissionCompleted from "./sections/MissionCompleted";
@@ -17,6 +18,7 @@ export default function Home() {
         <WhatWeDo />
         <Process />
         <MissionCompleted />
+        <AboutUs />
       </main>
     </>
   );
