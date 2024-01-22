@@ -5,6 +5,7 @@ import Hero from "./sections/Hero";
 import MissionCompleted from "./sections/MissionCompleted";
 import Process from "./sections/Process";
 import WhatWeDo from "./sections/WhatWeDo";
+import Footer from "./sections/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Process />
         <MissionCompleted />
         <AboutUs />
+        <Footer />
       </main>
     </>
   );
