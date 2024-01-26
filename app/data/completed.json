@@ -1,0 +1,33 @@
+{
+    "message" : "success",
+    "missions" : [
+        {
+            "id" : "1",
+            "image_url" : "/img/mission1.jpg",
+            "place_name" : "Yayasan Baitul Ummi",
+            "description" : "Projek pertama yang sangat amat banyak kurangnya dan kaget saat disambut dengan formal oleh pihak yayasan padahal acara kami main - main. Tidak ada susunan acara, kepanitiaan, persiapan tapi acara berjalan dengan SUKSES!",
+            "date" : "15/04/2022"
+        },
+        {
+            "id" : "2",
+            "image_url" : "/img/mission2.jpg",
+            "place_name" : "Kampung Pulo Bambu",
+            "description" : "Kampung pertama yang kami kunjungi, sangat berkesan dan sangat melelahkan tapi menyenangkan. Banyak hal yang dapat kita pelajari dan ambil hikmah-nya karena ini projek pertama kami di perkampungan.",
+            "date" : "31/07/2022"
+        },
+        {
+            "id" : "3",
+            "image_url" : "/img/mission3.jpg",
+            "place_name" : "Kampung Rambai",
+            "description" : "Kampung yang lumayan jauh dari tempat tinggal kami, cukup menyenangkan dan seperti biasa tidak ada susunan acara, kepanitiaan, dll. Tapi, tetap seru dan banyak hal yang bisa kita pelajari dari acara yang satu ini.",
+            "date" : "24/12/2022"
+        },
+        {
+            "id" : "4",
+            "image_url" : "/img/mission4.jpg",
+            "place_name" : "Kampung Gempol",
+            "description" : "Kampung yang mengesankan, kampung yang memberikan kami cukup banyak tantangan. Mencoba untuk menyusun rencana, acara, dll ternyata kami memang tidak bakat untuk menyusun rencana, tidak ada satupun rencana yang sesuai dengan apa yang kita rencanakan. Tapi, acara tetap berjalan dengan sangat baik dan pastinya SERUUU!",
+            "date" : "07/04/2023"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 .Missions .swiper-wrapper {
-  height: 480px;
+  height: 540px;
 }
 
 .Missions .swiper-slide {
@@ -23,7 +23,7 @@
 .Missions .swiper-slide .description {
   position: relative;
   z-index: 1;
-  transform: translateY(-10rem);
+  transform: translateY(-15rem);
   transition: all 0.5s ease-in-out;
   text-align: justify;
 }
@@ -35,5 +35,11 @@
 
 
 .AboutUs .swiper-slide {
-  width: 675px;
+  width: 100%;
+}
+
+@media screen and (min-width: 675px) {
+  .AboutUs .swiper-slide {
+    width: 675px;
+  }
 }
