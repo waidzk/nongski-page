@@ -48,11 +48,11 @@ export const AboutUs = () => {
               alt="Nongski"
             />
             <p className="p-5 max-w-[525px] text-sm">
-              Bukan komunitas apalagi organisasi, kami cuma sekumpulan teman
-              main yang senang main bersama tapi ingin bermanfaat juga untuk
-              orang lain. Akhirnya terbentuklah nongski ini, nongski hanyalah
-              sebuah nama yang dibuat mendadak oleh salah satu crew, sebenarnya
-              apapun nama nya yang penting di dalamnya.
+              Bukan komunitas, kelompok, apalagi organisasi. Nongski hanyalah
+              sebuah wadah untuk anak-anak muda yang senang bermain atau
+              nongkrong sekaligus bermanfaat bagi orang lain. Nongski pun
+              hanyalah sebuah nama yang dibuat mendadak oleh salah satu dari
+              teman kami. Namun, apapun nama-nya yang penting di dalamnya.
             </p>
           </div>
         </div>
