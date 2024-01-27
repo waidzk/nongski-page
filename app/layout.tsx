@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="shortcut icon" href="/icons/logo.ico" type="image/x-icon" />
         <link rel="stylesheet" href="/css/style.css" />
       </head>
       <body className={`${inter.className} bg-[#F5F5F5]`}>{children}</body>
