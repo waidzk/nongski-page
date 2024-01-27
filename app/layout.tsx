@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Nongski',
-  description: 'NEVER STOP BEING KIND is our tagline. /n Nongski bukanlah sebuah kelompok, komunitas apalagi organisasi, nongski hanyalah sebuah tempat untuk orang-orang berusaha menjadi lebih baik dan bermanfaat bagi orang-orang membutuhkan.',
+  description: 'Nongski bukanlah sebuah kelompok, komunitas apalagi organisasi, nongski hanyalah sebuah tempat untuk orang-orang berusaha menjadi lebih baik dan bermanfaat bagi orang-orang membutuhkan. NEVER STOP BEING KIND is our tagline. ',
 }
 
 export default function RootLayout({
