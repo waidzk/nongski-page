@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import AboutUs from "./sections/AboutUs";
-// import ComingProject from "./sections/ComingProject";
+import ComingProject from "./sections/ComingProject";
 import Hero from "./sections/Hero";
 import MissionCompleted from "./sections/MissionCompleted";
 import Process from "./sections/Process";
@@ -15,7 +15,7 @@ export default function Home() {
         <Hero />
       </header>
       <main className="m-0 p-0 w-full">
-        {/* <ComingProject /> */}
+        <ComingProject />
         <WhatWeDo />
         <Process />
         <MissionCompleted />

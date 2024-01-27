@@ -19,17 +19,17 @@ const Navbar = () => {
         </div>
         <ul className="hidden md:flex gap-6 transition-all duration-100 ease-in-out">
           <li>
-            <a className="hover:text-[#FF0404]" href="">Project</a>
+            <a className="hover:text-[#FF0404]" href="#Project">Project</a>
           </li>
           <li>
-            <a className="hover:text-[#FF0404]" href="">Completed</a>
+            <a className="hover:text-[#FF0404]" href="#CompletedMissions">Completed</a>
           </li>
           <li>
-            <a className="hover:text-[#FF0404]" href="">About us</a>
+            <a className="hover:text-[#FF0404]" href="#AboutUs">About us</a>
           </li>
         </ul>
         <div className="hidden md:block text-white bg-[#FF0404] rounded-b-full -mt-16 pt-[92px] pb-8 px-2 transition-all ease-in-out duration-100 hover:pt-[100px]">
-          <a href="" className="">
+          <a href="https://bit.ly/nongski" className="">
             Donasi
           </a>
         </div>

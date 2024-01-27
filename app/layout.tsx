@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Nongski',
-  description: 'Friends of kind.',
+  description: 'NEVER STOP BEING KIND is our tagline. /n Nongski bukanlah sebuah kelompok, komunitas apalagi organisasi, nongski hanyalah sebuah tempat untuk orang-orang berusaha menjadi lebih baik dan bermanfaat bagi orang-orang membutuhkan.',
 }
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="/icons/logo.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="/css/style.css" />
       </head>
       <body className={`${inter.className} bg-[#F5F5F5]`}>{children}</body>
