@@ -19,6 +19,13 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="/css/style.css" />
+        <meta property="og:title" content="Nongski Page" />
+        <meta property="og:description" content="Let's spread the kindness and Never Stop Being Kind!" />
+        <meta property="og:url" content="https://nongski-page.vercel.app/" />
+        <meta
+          property="og:image"
+          content="https://nongski-page.vercel.app/logo.png"
+        />
       </head>
       <body className={`${inter.className} bg-[#F5F5F5]`}>{children}</body>
     </html>
