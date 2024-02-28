@@ -22,8 +22,8 @@ const WhatWeDo = () => {
               lain. Kami harap mereka seperti itu, punya semangat juang untuk
               melakukan hal baik dimanapun dan kapanpun. Anak-anak ini akan
               menjadi pondasi-pondasi bangsa ini di masa depan dan tidak lupa
-              anak-anak ini bisa menjadi kekuatan Islam di masa depan! Mari
-              Berdonasi! Process of build our project
+              anak-anak ini bisa menjadi kekuatan Islam di masa depan! <a href="https://bit.ly/nongski" className="text-red-500 underline">Mari
+              Berdonasi!</a>
             </p>
             <Image
               src="/img/whatwedo.png"
