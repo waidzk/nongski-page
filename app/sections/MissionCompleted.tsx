@@ -2,14 +2,16 @@
 import completedMissions from "../data/completed.json";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
+import 'swiper/css/navigation';
 
 export const MissionCompleted = () => {
   const data = completedMissions.missions.slice().reverse()
   return (
-    <section className="w-full flex justify-center items-center my-5 py-5 Missions">
+    <section id="CompletedMissions" className="w-full flex justify-center items-center my-5 py-5 Missions">
       <div className="w-full md:w-[760px] lg:w-[900px] xl:w-[1200px]">
         <h1 className="text-2xl text-center font-bold">Mission Completed</h1>
         <div className="flex justify-center items-center mt-3">
@@ -18,6 +20,8 @@ export const MissionCompleted = () => {
             centeredSlides={true}
             spaceBetween={30}
             grabCursor={true}
+            navigation={true}
+            modules={[Navigation]}
             className="mySwiper flex flex-row-reverse justify-center items-center"
           >
             {data.map((mission) => (

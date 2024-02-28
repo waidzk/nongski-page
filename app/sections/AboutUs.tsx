@@ -2,15 +2,18 @@
 import Photos from "../data/album.json";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
+import 'swiper/css/navigation';
+
 import Image from "next/image";
 
 export const AboutUs = () => {
   const data = Photos.album;
   return (
-    <section className="w-full flex flex-col justify-center items-center my-5 py-5 mx-0 AboutUs">
+    <section id="AboutUs" className="w-full flex flex-col justify-center items-center my-5 py-5 mx-0 AboutUs">
       <div className="w-full">
         <h1 className="text-2xl text-center font-bold">Kita-kita</h1>
         <div className="flex justify-center items-center mt-3">
@@ -20,6 +23,8 @@ export const AboutUs = () => {
             spaceBetween={30}
             grabCursor={true}
             loop={true}
+            navigation={true}
+            modules={[Navigation]}
             className="mySwiper py-[30px]"
           >
             {data.map((photo) => (

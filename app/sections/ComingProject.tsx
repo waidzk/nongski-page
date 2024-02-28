@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 const ComingProject = () => {
   return (
-    <section className="w-full flex justify-center items-center my-5 py-5">
+    <section id="Project" className="w-full flex justify-center items-center my-5 py-5 bg-white">
       <div className="w-[320px] md:w-[760px] lg:w-[900px] xl:w-[1200px] flex flex-col gap-5 justify-center items-center">
         <h1 className="text-2xl font-bold">Coming Project</h1>
         <div className="flex flex-col md:flex-row items-center gap-4">
@@ -20,12 +20,9 @@ const ComingProject = () => {
               Small Effort, Big Changes
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quam
-              esse omnis perferendis. Repudiandae quaerat vero tempore eaque
-              nisi non tempora animi saepe alias natus, voluptate perspiciatis
-              impedit sapiente quisquam.
+              Kamu tetap bisa ber-donasi selagi kami mempersiapkan misi selanjutnya!
             </p>
-            <Button theme="secondary" title="Donasi" />
+            <Button theme="secondary" title="Donasi" redirectToPage="https://bit.ly/nongski" blank={true} />
           </div>
         </div>
       </div>

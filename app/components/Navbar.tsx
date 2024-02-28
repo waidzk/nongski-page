@@ -28,11 +28,11 @@ const Navbar = () => {
             <a className="hover:text-[#FF0404]" href="#AboutUs">About us</a>
           </li>
         </ul>
-        <div className="hidden md:block text-white bg-[#FF0404] rounded-b-full -mt-16 pt-[92px] pb-8 px-2 transition-all ease-in-out duration-100 hover:pt-[100px]">
-          <a href="https://bit.ly/nongski" className="">
+        <a href="https://bit.ly/nongski" target="_blank" className="">
+          <div className="hidden md:block text-white bg-[#FF0404] rounded-b-full -mt-16 pt-[92px] pb-8 px-2 transition-all ease-in-out duration-100 hover:pt-[100px]">
             Donasi
-          </a>
-        </div>
+          </div>
+        </a>
         {/* MOBILE NAVIGATION */}
         <div className="md:hidden">
           <div className="mobile block">
@@ -45,9 +45,8 @@ const Navbar = () => {
             />
           </div>
           <div
-            className={`flex justify-end text-right items-center fixed right-0 top-[70px] h-screen w-[320px] bg-[#FF0404] rounded-tl-full transition-all ease-in-out duration-100 ${
-              isMenuMobileOpen ? "translate-x-0" : "translate-x-full"
-            }`}
+            className={`flex justify-end text-right items-center fixed right-0 top-[70px] h-screen w-[320px] bg-[#FF0404] rounded-tl-full transition-all ease-in-out duration-100 ${isMenuMobileOpen ? "translate-x-0" : "translate-x-full"
+              }`}
           >
             <ul className="mr-10 flex flex-col gap-4 text-2xl font-bold text-white underline">
               <li>Project</li>

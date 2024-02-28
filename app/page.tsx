@@ -14,7 +14,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </header>
-      <main className="m-0 p-0 w-full">
+      <main className="m-0 p-0 w-full bg-[#F5F5F5]">
         <ComingProject />
         <WhatWeDo />
         <Process />

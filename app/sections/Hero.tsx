@@ -46,7 +46,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <Button theme="primary" variant="md:w-96" title="Explore" />
+        <Button theme="primary" variant="md:w-96" title="Explore" redirectToPage="#Project" blank={false} />
       </div>
     </section>
   );
