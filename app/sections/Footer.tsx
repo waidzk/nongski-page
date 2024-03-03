@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="w-full flex flex-col md:flex-row gap-5 justify-between items-start md:items-center bg-[#DE0000] p-8 md:p-24">
         <div>
           <h1 className="text-5xl font-bold italic text-slate-100 max-w-[500px]">
-            Trying spread kind since 2020
+            Trying spread kindness since 2020
           </h1>
           <span className="text-slate-200 text-xs">
             &copy; 2024 by <a href="https://waidzk.vercel.app">wdzdev</a>
