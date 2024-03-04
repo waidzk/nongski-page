@@ -49,9 +49,15 @@ const Navbar = () => {
               }`}
           >
             <ul className="mr-10 flex flex-col gap-4 text-2xl font-bold text-white underline">
-              <li>Project</li>
-              <li>Completed</li>
-              <li>About us</li>
+              <li>
+                <a onClick={() => setMenuMobileOpen(false)} href="#Project">Project</a>
+              </li>
+              <li>
+                <a onClick={() => setMenuMobileOpen(false)} href="#CompletedMissions">Completed</a>
+              </li>
+              <li>
+                <a onClick={() => setMenuMobileOpen(false)} href="#AboutUs">About us</a>
+              </li>
             </ul>
           </div>
         </div>
