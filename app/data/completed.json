@@ -35,6 +35,13 @@
             "place_name" : "Kampung Cempaka",
             "description" : "Project terakhir di 2023, lagi dan lagi selalu menyenangkan walaupun tanpa rencana yang matang, apalagi saat pembukaan dan ice breaking yang tidak 'breaking'. Namun pada akhirnya, acara berjalan dengan lancar dan seru sekali!",
             "date" : "03/09/2023"
+        },
+        {
+            "id" : "6",
+            "image_url" : "/img/mission6.jpg",
+            "place_name" : "Kampung Elo",
+            "description" : "Project pertama pada tahun 2024! di eksekusi pada bulan Ramadhan. Project kali ini sedikit tersusun dengan baik karena ada strukturisasi project, sehingga rencana yang kita rencanakan berjalan dengan baik (ya ngga mayoritas sih :D), namun tetap seru!",
+            "date" : "31/03/2024"
         }
     ]
 }
