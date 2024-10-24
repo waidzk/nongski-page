@@ -5,7 +5,7 @@
             "id" : "1",
             "image_url" : "/img/mission1.jpg",
             "place_name" : "Yayasan Baitul Ummi",
-            "description" : "Projek pertama yang sangat amat banyak kurangnya dan kaget saat disambut dengan formal oleh pihak yayasan padahal acara kami main - main. Tidak ada susunan acara, kepanitiaan, persiapan tapi acara berjalan dengan SUKSES!",
+            "description" : "Projek pertama yang sangat amat banyak kurangnya dan kaget saat disambut dengan formal oleh pihak yayasan padahal acara kami main-main. Tidak ada susunan acara, kepanitiaan, persiapan tapi acara berjalan dengan SUKSES!",
             "date" : "15/04/2022"
         },
         {
@@ -42,6 +42,13 @@
             "place_name" : "Kampung Elo",
             "description" : "Project pertama pada tahun 2024! di eksekusi pada bulan Ramadhan. Project kali ini sedikit tersusun dengan baik karena ada strukturisasi project, sehingga rencana yang kita rencanakan berjalan dengan baik (ya ngga mayoritas sih :D), namun tetap seru!",
             "date" : "31/03/2024"
+        },
+        {
+            "id" : "7",
+            "image_url" : "/img/mission7.jpg",
+            "place_name" : "Kampung Sukaragam",
+            "description" : "Berjalan dengan baik, namun tetap ada kurangnya :D. Yang pasti seru, penuh tawa dan penuh bahagia. semoga bisa lebih baik kedepannya!",
+            "date" : "04/08/2024"
         }
     ]
 }
